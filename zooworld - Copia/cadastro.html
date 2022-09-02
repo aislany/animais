@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Animais</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <img src="imagens/logo.png" class="logo">
+    <hr>
+    <h1> Cadastro de Animais</h1>
+    <hr>
+    <div id="msgSucesso"></div> 
+    <div class="formulario">
+    <p> <label for="nome">Nome:</label> 
+     <input type="text" id="nome"  size="30" maxlenght="35" placeholder="Digite o nome do Animal"/></p>
+    
+               <p> <label for="nomecientifico">Nome Cientifico:</label> 
+               <input type="text" id="nomecientifico"  size="35" maxlenght="45" placeholder="Digite o nome Cientitifico do animal"/></p>
+   
+                <p> <label for="especie">Espécie:</label> 
+                <input type="text" id="especie"  size="35" maxlenght="45" placeholder="Digite a espécie do animal"/></p>
+    
+                <p> <label for="qtd ">Qtd:</label> 
+                <input type="text" id="qtd"  size="35" maxlenght="45" placeholder="Digite a quantidade de animal"/></p>
+
+                <p> <label for="peso">Peso:</label> 
+                <input type="text" id="peso"  size="35" maxlenght="45" placeholder="Digite o peso do  animal"/></p>
+
+
+                <p> <label for="alimentacao">Alimentação:</label> 
+                <input type="text" id="alimentacao"  size="35" maxlenght="45" placeholder="Digite o tipo de Alimentação do animal"/></p>
+
+</div>
+    <br>
+    <hr>
+    <input onclick='cadastrar()' type="submit" value="C a d a s t r a r"/>
+    <hr>
+     
+    <script src="cad.js"></script>
+    
+</body>
+</html>
